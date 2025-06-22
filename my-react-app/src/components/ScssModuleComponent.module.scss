@@ -1,0 +1,52 @@
+.button{
+    background-color: #FF4343;
+    font-weight: 900;
+    font-size: 24px;
+    color: white;
+    border: 0px;
+    padding: 15px 25px;
+    text-transform: uppercase;
+    margin-top: 40px;
+
+    &:hover{
+        background-color:#E71414;
+}
+    &:active {
+        background-color:#FF4343;
+        box-shadow: 0 0 10px #FF4343;
+}
+    
+}
+
+.card_wrap {
+    margin: auto;
+    background-color:#F8F5D2;
+    border-radius: 20px;
+    border:1px solid grey;
+    width: 260px;
+    height: 360px;
+    padding: 40px;
+    margin-top: 100px;
+}
+.card_title {
+    font-size: 30px;
+    color:black;
+    margin-bottom: 63px;
+}
+.card_price{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.card_info{
+    font-size: 18px;
+    margin-bottom: 61px;
+}
+.card_button{
+    background-color:#E71414;
+    color:white;
+    padding: 20px 60px;
+    border-radius:10px;
+    border:none;
+}
+
+
